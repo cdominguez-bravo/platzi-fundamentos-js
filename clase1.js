@@ -41,3 +41,14 @@ var total2 = parseFloat(totalStr);
 var pizza = 8;
 var persona = 2;
 var cantidadDePorcionesPorPersna = pizza / persona;
+
+// funciones: https://platzi.com/clases/1339-fundamentos-javascript/12889-funciones61-3/
+
+function impirmirEdad(n, e) {
+  console.log(`${n} tiene ${e} años`);
+}
+
+impirmirEdad(nombre, edad);
+impirmirEdad("Vicky", 28);
+impirmirEdad("Erik", 25);
+impirmirEdad(34, "Pepe");
