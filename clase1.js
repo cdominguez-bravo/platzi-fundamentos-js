@@ -1,5 +1,14 @@
-var nombre;
+var nombre = "Carlos";
+var apellido = "Lifzyc";
 
-nombre = "Sacha";
+var nombreEnMayusculas = nombre.toUpperCase();
+var apellidoEnMinusculas = apellido.toLowerCase();
+var primeraLetraDelNombre = nombre.charAt(0);
 
-console.log("Hola " + nombre);
+var cantidadDeLetasDelNombre = nombre.length;
+
+//interpolacion de texto
+
+var nombreCompleto = `${nombre} ${apellido.toUpperCase()}`;
+
+var str = nombre.substr(1, 2);
