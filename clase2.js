@@ -8,3 +8,10 @@ function imprimirNombreEnMayusculas(n) {
 }
 
 imprimirNombreEnMayusculas(nombre);
+
+switch (false) {
+  case false:
+    console.log("Soy falso :( ");
+  case true:
+    console.log("Soy verdadero!");
+}
